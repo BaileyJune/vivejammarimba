@@ -1,4 +1,4 @@
-﻿/* teVirtualMIDI C# interface - v1.2.9.37
+﻿﻿/* teVirtualMIDI C# interface - v1.2.9.37
  *
  * Copyright 2009-2015, Tobias Erichsen
  * All rights reserved, unauthorized usage & distribution is prohibited.
