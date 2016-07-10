@@ -1,4 +1,4 @@
-﻿﻿/* teVirtualMIDI C# interface - v1.2.9.37
+﻿/* teVirtualMIDI C# interface - v1.2.9.37
  *
  * Copyright 2009-2015, Tobias Erichsen
  * All rights reserved, unauthorized usage & distribution is prohibited.
@@ -129,7 +129,7 @@ namespace TobiasErichsen.teVirtualMIDI {
 
 
 
-	public class TeVirtualMIDI : MonoBehaviour{
+	public class TeVirtualMIDI {
 
 		/* default size of sysex-buffer */
 		private const UInt32 TE_VM_DEFAULT_SYSEX_SIZE = 65535;
