@@ -22,10 +22,7 @@ namespace TobiasErichsen.teVirtualMIDI.test {
 				builder.Data1 = note;
 				builder.Data2 = 127;
 				builder.Build();
-                Debug.Log(note);
-				////builder.Command = ChannelCommand.NoteOff;
-				//builder.Data2 = 0;
-				//builder.Build();
+                		Debug.Log(note);
 
 				outDevice.Send(builder.Result);
 
