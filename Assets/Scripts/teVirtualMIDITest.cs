@@ -7,9 +7,6 @@ namespace TobiasErichsen.teVirtualMIDI.test {
 
 
 	public class KeyToSoundIntegrator{
-
-		
-
 		public static void ProduceSound(int note)
 		{
 			using (OutputDevice outDevice = new OutputDevice(3))
