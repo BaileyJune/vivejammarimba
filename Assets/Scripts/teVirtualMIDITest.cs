@@ -12,7 +12,6 @@ namespace TobiasErichsen.teVirtualMIDI.test {
 
 		public static void ProduceSound(int note)
 		{
-			
 			using (OutputDevice outDevice = new OutputDevice(3))
 			{
 				ChannelMessageBuilder builder = new ChannelMessageBuilder();
@@ -25,9 +24,6 @@ namespace TobiasErichsen.teVirtualMIDI.test {
                 		Debug.Log(note);
 
 				outDevice.Send(builder.Result);
-
 			}
-			
 		}
-
 }
